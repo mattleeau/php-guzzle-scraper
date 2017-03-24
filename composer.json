@@ -1,0 +1,14 @@
+{
+  "name": "GRBJ Archive Scraper",
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "symfony/dom-crawler": "^3.2",
+    "symfony/css-selector": "^3.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "Scrape\\": "src/Scrape"
+    }
+  }
+}
